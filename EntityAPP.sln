@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityAPPConsole", "EntityAPPConsole\EntityAPPConsole.csproj", "{F027A625-8250-420F-93AF-FD110D8DABCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityAPPLibrary", "EntityAPPLibrary\EntityAPPLibrary.csproj", "{B660AD9D-5F81-45E1-AB35-8A20737FFF7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F027A625-8250-420F-93AF-FD110D8DABCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F027A625-8250-420F-93AF-FD110D8DABCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F027A625-8250-420F-93AF-FD110D8DABCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F027A625-8250-420F-93AF-FD110D8DABCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B660AD9D-5F81-45E1-AB35-8A20737FFF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B660AD9D-5F81-45E1-AB35-8A20737FFF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B660AD9D-5F81-45E1-AB35-8A20737FFF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B660AD9D-5F81-45E1-AB35-8A20737FFF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FC6062A-EB62-4B0C-9D86-F0C631B4F2AA}
+	EndGlobalSection
+EndGlobal
