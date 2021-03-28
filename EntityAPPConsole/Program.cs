@@ -49,6 +49,18 @@ namespace EntityAPPConsole
 
             Console.WriteLine("cantidad sucursales: {0}: ", restaurant.CantidadSucursales);
 
+            //METODO QUE AFECTA O CAMBIA UN ESTADO
+            Almacen.agregarSucursal(sucursal);
+
+            //METODO Q SE COMPORTA DISTINTO DEPENDIENDO EL ESTADO
+            Carta carta = new Carta();
+            string contenido = "Hola queria solicitar una entrevista, muchas gracias";
+            string mailCreador = "julianparodi19@gmail.com";
+            string mailRecipiente = "consultoria@gmail.com";
+
+            carta = carta.creacionCarta(mailRecipiente, mailCreador, contenido);
+            Console.WriteLine("La carta se ha enviado exitosamente hacia {0}", carta.MailRecipiente);
+
         }
     }
 }

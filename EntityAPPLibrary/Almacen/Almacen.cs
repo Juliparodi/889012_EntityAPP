@@ -24,4 +24,10 @@ namespace EntityAPPLibrary.Almacen
         public int CantidadSucursales { get => cantidadSucursales; set => cantidadSucursales = value; }
         public string Domicilio { get => domicilio; set => domicilio = value; }
     }
+
+    
+        public static void agregarSucursal(Sucursal sucursal)
+        {
+            this.sucursales.Add(sucursal);
+        }
 }
